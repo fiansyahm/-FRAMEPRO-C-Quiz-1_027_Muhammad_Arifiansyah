@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Our Company";
+    ViewData["MyColor"] = "dark";
+}
+
+<div class="text-center">
+    <h1 class="">@ViewData["Title"]</h1>
+</div>
+<div class="row mt-5 border-bottom border-top bg-black">
+    <div class="col text-white">
+        <h2 class="text-center">let to know the History, Culture, and Achievements of Uland</h2>
+        <div class="text-center align-content-center">
+            <img  src="https://img.freepik.com/free-vector/gradient-abstract-mountain-background-design_23-2149178797.jpg?size=626&ext=jpg" />
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <p>This startup established by Muhammad Arifiansyah in 2022 when indonesia was hit by pandemic. In pandemic condition, many employee was be fired. Muhammad Arifiansyah or we know as "Arif" have a good idea to change vacant land be productivity land. We serve sell land, rent out land, buy land, and rent land. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container text-center my-5">
+    <h1>Business Structure</h1>
+    <img src="https://eqvista.com/app/uploads/2020/05/Organizational-structure-example-%E2%80%93-Line.png" />
+</div>
+
+<div class="row mt-5 border-bottom border-top bg-black">
+    <div class="col text-white">
+        <h2 class="text-center">What we do?</h2>
+        <!-- Swiper -->
+    <div class="swiper mySwiper text-white text-center bg-black">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg-black">
+            <div class="row border border-white border-5 p-5 m-5">
+                <div class="col-md-6">
+                    <img class="p-5 ms-1" src="https://iamchampionaire.files.wordpress.com/2015/07/observe-and-record.gif" />
+                </div>
+                 <div class="col-md-6">
+                     <h1>Observe the Land</h1>
+                     <p>We observe land, and analyze what the land needs. Example the land have low price because its access, We are ready to build or repair street there.</p>
+                 </div>
+            </div>
+        </div>
+        <div class="swiper-slide bg-black">
+            <div class="row border border-white border-5 p-5 m-5">
+                <div class="col-md-6">
+                    <img class="p-5 ms-1" src="https://aziest1kat254.blob.core.windows.net/id-uploads/2021/06/60d319c0a947a-60d319c0a947bPengertian-Cara-Membuat-dan-Fungsi-dari-Mind-Mapping.jpg.jpg" />
+                </div>
+                 <div class="col-md-6">
+                     <h1>Mapping</h1>
+                     <p>We divide the land to be various kind of land, Example the land is good for agriculture or good for build shop.</p>
+                 </div>
+            </div>
+        </div>
+        <div class="swiper-slide bg-black">
+            <div class="row border border-white border-5 p-5 m-5">
+                <div class="col-md-6">
+                    <img class="p-5 ms-1" src="https://asset.kompas.com/crops/IWwI6N46zpjkt8Wzg7z20fq846w=/166x0:1244x719/750x500/data/photo/2019/11/16/5dcfbe6d9c922.jpeg" />
+                </div>
+                 <div class="col-md-6">
+                     <h1>Seminar</h1>
+                     <p>We hold seminar every month. We want to educate people about the important to use their vacant land.</p>
+                 </div>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+          },
+        },
+      });
+    </script>
+
+        
+    </div>
+</div>
+
+
+<div class="row mt-5">
+    <div class="col-md-12 mt-5">
+        <div class="card">
+          <div class="card-body p-5">
+            <h3>About Uland</h3>
+                A platfrom which serve land to make your dream come true
+          </div>
+        </div>
+    </div>
+     <div class="col-md-12 mt-5">
+        <div class="card">
+          <div class="card-body p-5">
+            <h3>Company Vision and Mision</h3>
+                Decrease wasteland in indonesia and support forging of land to people prosperity. 
+          </div>
+        </div>
+    </div>
+    <div class="col-md-12 mt-5">
+        <div class="card">
+          <div class="card-body p-5">
+            <h3>Achivement</h3>
+                Awards and thanks for the achievements of Uland as a Startup that strugle for people prosperity.
+          </div>
+        </div>
+    </div>
+</div>

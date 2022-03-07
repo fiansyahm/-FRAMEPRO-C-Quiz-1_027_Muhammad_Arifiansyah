@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA27BipN5dN0Ghprm/uCrFfgAAAAACAAAAAAAQZgAAAAEAACAAAAB9CdUO8hsDIUvSzjnXJmu7KavvMpBfa991d+ZCVVWqewAAAAAOgAAAAAIAACAAAAADyDjkC03OzfrJ3RmQ3XnhWQO78d9LHJyO7wK5V/+hgSAAAAAuEOnR+1a0w4oolZyMtam6xDO4nT6miSD8ST5NfRcn00AAAACal5JObwP+591GE9T6najo4O6VGb9LaPFlIf3GuMNxFaRJUVXgPKgBV0F3kVsWfuAL02w9cprDbU9PZqZusRKV</EncryptedPassword>
+    <_PublishTargetUrl>https://fiansyahm.000webhostapp.com/halo</_PublishTargetUrl>
+    <History>False|2022-03-02T20:16:54.3304437Z;</History>
+  </PropertyGroup>
+</Project>
